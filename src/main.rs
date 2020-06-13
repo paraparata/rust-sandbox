@@ -21,8 +21,8 @@ fn main() {
             Ok(num) => num,
             Err(_) => {
                 println!(">> Input only accept number!");
-                continue
-            },
+                continue;
+            }
         };
         println!("You guessed: {}", guess);
 
